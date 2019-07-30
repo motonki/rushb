@@ -46,7 +46,6 @@ function Phases(props) {
 }
 
 function Tactic(props) {
-    console.log(props.value.phases)
     return (
             <div class="tactic border rounded-sm">
             {props.value.name}
