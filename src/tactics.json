@@ -1,0 +1,75 @@
+    [{"map":"Inferno",
+        "tactics":[
+        {"name":"Default",
+        "description": "Basic setup 2-1-2: two in banana, 1 awping mid, two in 2nd mid or apps.",
+        "phases": [
+            {"description": "Lorem ipsum",
+                "id":1,
+            "steps": [
+                {"url": "",
+                    "name": ""}
+            ]}
+        ]},
+        {"name":"B execute",
+            "description": "",
+            "phases": [
+                {"description": "Smoke CT and coils, optionally molly newbox and dark",
+                    "id":1,
+                "steps": [
+                    {"url": "https://sothatwemaybefree.com/map/de_inferno/Smoke/488/ct-spawn-from-banana",
+                    "name": "CT smoke"},
+                    {"url": "https://sothatwemaybefree.com/map/de_inferno/Smoke/496/spools-from-logs",
+                    "name": "Coil smoke"},
+                    {"url": "https://sothatwemaybefree.com/map/de_inferno/Molotov/494/dark-from-car",
+                    "name": "Molly to dark"},
+                    {"url": "https://sothatwemaybefree.com/map/de_inferno/Molotov/504/new-box-from-sandbags",
+                    "name": "Molly to newbox"}
+                ]}
+            ]}
+    ]},
+    {"map":"Mirage",
+        "tactics":[
+        {"name":"Default",
+            "description": "",
+        "phases": [
+            {"description": "Lorem ipsum",
+                "id":1,
+            "steps": [
+                {"url": "",
+                    "name": ""}
+            ]}
+        ]},
+        {"name":"A execute",
+            "description": "",
+            "phases": [
+                {"description": "Lorem ipsum",
+                    "id":1,
+                "steps": [
+                    {"url": "",
+                        "name": ""}
+                ]}
+            ]}
+    ]},
+    {"map":"Overpass",
+        "tactics":[
+        {"name":"Default",
+            "description": "",
+        "phases": [
+            {"description": "Lorem ipsum",
+                "id":1,
+            "steps": [
+                {"url": "",
+                    "name": ""}
+            ]}
+        ]},
+        {"name":"A execute",
+            "description": "",
+            "phases": [
+                {"description": "Lorem ipsum",
+                    "id":1,
+                "steps": [
+                    {"url": "",
+                        "name": ""}
+                ]}
+            ]}
+    ]}]
