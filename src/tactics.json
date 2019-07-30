@@ -25,7 +25,21 @@
                     {"url": "https://sothatwemaybefree.com/map/de_inferno/Molotov/504/new-box-from-sandbags",
                     "name": "Molly to newbox"}
                 ]}
-            ]}
+            ]},
+            {"name":"Short to A",
+                "description": "",
+                "phases": [
+                    {"description": "Smoke mini pit and optionally long. Flash from apps (or just over site towards pit).",
+                        "id":1,
+                    "steps": [
+                        {"url": "https://sothatwemaybefree.com/map/de_inferno/Smoke/497/moto-from-t",
+                        "name": "Smoke mini pit"},
+                        {"url": "https://sothatwemaybefree.com/map/de_inferno/Smoke/483/long-from-2nd-middle",
+                        "name": "Long smoke"},
+                        {"url": "https://sothatwemaybefree.com/map/de_inferno/Flashbang/499/bombsite-a-from-long-hall",
+                            "name": "Flash"}
+                        ]}
+                ]}
     ]},
     {"map":"Mirage",
         "tactics":[
@@ -65,11 +79,27 @@
         {"name":"A execute",
             "description": "",
             "phases": [
-                {"description": "Lorem ipsum",
+                {"description": "Smoke dumpster and bank. Optionally molly truck",
                     "id":1,
                 "steps": [
-                    {"url": "",
-                        "name": ""}
+                    {"url": "https://sothatwemaybefree.com/map/de_overpass/Smoke/176/bank-from-short",
+                    "name": "Bank smoke"},
+                    {"url": "https://sothatwemaybefree.com/map/de_overpass/Smoke/175/back-a-from-short",
+                    "name": "Dumpster smoke"},
+                    {"url": "https://sothatwemaybefree.com/map/de_overpass/Molotov/165/truck-from-cafe",
+                        "name": "Truck molly"}
                 ]}
-            ]}
+            ]},
+            {"name":"B execute",
+                "description": "",
+                "phases": [
+                    {"description": "Smoke heaven and bridge",
+                        "id":1,
+                    "steps": [
+                        {"url": "https://sothatwemaybefree.com/map/de_overpass/Smoke/180/heaven-from-squeaky",
+                        "name": "Heaven smoke"},
+                        {"url": "https://sothatwemaybefree.com/map/de_overpass/Smoke/183/bridge-from-alley",
+                        "name": "Bridge smoke"}
+                    ]}
+                ]}
     ]}]
