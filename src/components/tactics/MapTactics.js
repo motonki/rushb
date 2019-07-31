@@ -47,7 +47,7 @@ function Phases(props) {
 
 function Tactic(props) {
     return (
-        <div class="tactic border rounded-sm">
+        <div class="tactic border {props.style} rounded-sm">
             {props.value.name}
             <p>{props.value.description}</p>
             <Phases phases={props.value.phases} />
@@ -64,6 +64,19 @@ function Tactics(props) {
             {tactics}
         </div>
     );
+}
+
+function FeaturedTactic(props) {
+    var tacticname = "Rush B";
+    var data = props.tactics.filter(function (tactic) {
+        return tactic.name == tacticname;
+    });
+
+    return (
+        <div>
+            <Tactic style={"border-primary"} value={data} />
+        </div>
+    )
 }
 
 /*
@@ -89,6 +102,7 @@ class MapTactics extends React.Component {
             <div>
                 <button onClick={this.props.onClick} class="btn btn-primary">Back to map list</button>
                 <h1>{this.props.name}</h1>
+                <FeaturedTactic tactics={this.state.tactics} />
                 <Tactics tactics={this.state.tactics} />
             </div>
         );
