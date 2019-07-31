@@ -1,105 +1,203 @@
-    [{"map":"Inferno",
-        "tactics":[
-        {"name":"Default",
-        "description": "Basic setup 2-1-2: two in banana, 1 awping mid, two in 2nd mid or apps.",
-        "phases": [
-            {"description": "Lorem ipsum",
-                "id":1,
-            "steps": [
-                {"url": "",
-                    "name": ""}
-            ]}
-        ]},
-        {"name":"B execute",
-            "description": "",
-            "phases": [
-                {"description": "Smoke CT and coils, optionally molly newbox and dark",
-                    "id":1,
-                "steps": [
-                    {"url": "https://sothatwemaybefree.com/map/de_inferno/Smoke/488/ct-spawn-from-banana",
-                    "name": "CT smoke"},
-                    {"url": "https://sothatwemaybefree.com/map/de_inferno/Smoke/496/spools-from-logs",
-                    "name": "Coil smoke"},
-                    {"url": "https://sothatwemaybefree.com/map/de_inferno/Molotov/494/dark-from-car",
-                    "name": "Molly to dark"},
-                    {"url": "https://sothatwemaybefree.com/map/de_inferno/Molotov/504/new-box-from-sandbags",
-                    "name": "Molly to newbox"}
-                ]}
-            ]},
-            {"name":"Short to A",
-                "description": "",
-                "phases": [
-                    {"description": "Smoke mini pit and optionally long. Flash from apps (or just over site towards pit).",
-                        "id":1,
-                    "steps": [
-                        {"url": "https://sothatwemaybefree.com/map/de_inferno/Smoke/497/moto-from-t",
-                        "name": "Smoke mini pit"},
-                        {"url": "https://sothatwemaybefree.com/map/de_inferno/Smoke/483/long-from-2nd-middle",
-                        "name": "Long smoke"},
-                        {"url": "https://sothatwemaybefree.com/map/de_inferno/Flashbang/499/bombsite-a-from-long-hall",
-                            "name": "Flash"}
-                        ]}
-                ]}
-    ]},
-    {"map":"Mirage",
-        "tactics":[
-        {"name":"Default",
-            "description": "",
-        "phases": [
-            {"description": "Lorem ipsum",
-                "id":1,
-            "steps": [
-                {"url": "",
-                    "name": ""}
-            ]}
-        ]},
-        {"name":"A execute",
-            "description": "",
-            "phases": [
-                {"description": "Lorem ipsum",
-                    "id":1,
-                "steps": [
-                    {"url": "",
-                        "name": ""}
-                ]}
-            ]}
-    ]},
-    {"map":"Overpass",
-        "tactics":[
-        {"name":"Default",
-            "description": "",
-        "phases": [
-            {"description": "Lorem ipsum",
-                "id":1,
-            "steps": [
-                {"url": "",
-                    "name": ""}
-            ]}
-        ]},
-        {"name":"A execute",
-            "description": "",
-            "phases": [
-                {"description": "Smoke dumpster and bank. Optionally molly truck",
-                    "id":1,
-                "steps": [
-                    {"url": "https://sothatwemaybefree.com/map/de_overpass/Smoke/176/bank-from-short",
-                    "name": "Bank smoke"},
-                    {"url": "https://sothatwemaybefree.com/map/de_overpass/Smoke/175/back-a-from-short",
-                    "name": "Dumpster smoke"},
-                    {"url": "https://sothatwemaybefree.com/map/de_overpass/Molotov/165/truck-from-cafe",
-                        "name": "Truck molly"}
-                ]}
-            ]},
-            {"name":"B execute",
-                "description": "",
-                "phases": [
-                    {"description": "Smoke heaven and bridge",
-                        "id":1,
-                    "steps": [
-                        {"url": "https://sothatwemaybefree.com/map/de_overpass/Smoke/180/heaven-from-squeaky",
-                        "name": "Heaven smoke"},
-                        {"url": "https://sothatwemaybefree.com/map/de_overpass/Smoke/183/bridge-from-alley",
-                        "name": "Bridge smoke"}
-                    ]}
-                ]}
-    ]}]
+    [
+        {
+            "map": "Inferno",
+            "tactics": [
+                {
+                    "name": "Default",
+                    "description": "Basic setup 2-1-2: two in banana, 1 awping mid, two in 2nd mid or apps.",
+                    "phases": [
+                        {
+                            "description": "",
+                            "id": 1,
+                            "steps": [
+                                {
+                                    "url": "",
+                                    "name": ""
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "B execute",
+                    "description": "",
+                    "phases": [
+                        {
+                            "description": "Smoke CT and coils, optionally molly newbox and dark",
+                            "id": 1,
+                            "steps": [
+                                {
+                                    "url": "https://sothatwemaybefree.com/map/de_inferno/Smoke/488/ct-spawn-from-banana",
+                                    "name": "CT smoke"
+                                },
+                                {
+                                    "url": "https://sothatwemaybefree.com/map/de_inferno/Smoke/496/spools-from-logs",
+                                    "name": "Coil smoke"
+                                },
+                                {
+                                    "url": "https://sothatwemaybefree.com/map/de_inferno/Molotov/494/dark-from-car",
+                                    "name": "Molly to dark"
+                                },
+                                {
+                                    "url": "https://sothatwemaybefree.com/map/de_inferno/Molotov/504/new-box-from-sandbags",
+                                    "name": "Molly to newbox"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Short to A",
+                    "description": "",
+                    "phases": [
+                        {
+                            "description": "Smoke mini pit and optionally long. Flash from apps (or just over site towards pit).",
+                            "id": 1,
+                            "steps": [
+                                {
+                                    "url": "https://sothatwemaybefree.com/map/de_inferno/Smoke/497/moto-from-t",
+                                    "name": "Smoke mini pit"
+                                },
+                                {
+                                    "url": "https://sothatwemaybefree.com/map/de_inferno/Smoke/483/long-from-2nd-middle",
+                                    "name": "Long smoke"
+                                },
+                                {
+                                    "url": "https://sothatwemaybefree.com/map/de_inferno/Flashbang/499/bombsite-a-from-long-hall",
+                                    "name": "Flash"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Anti eco: midrush",
+                    "description": "",
+                    "phases": [
+                        {
+                            "description": "Shoot heads and keep an eye on the close angle. If there is a smoke on ramp, throw molly / HE right behind the smoke.",
+                            "id": 1,
+                            "steps": []
+                        },
+                        {
+                            "description": "Quickly rotate from ramp to 2nd mid. If there is someone in banana he can flash nmid and guys already in 2nd mid can flank mid.",
+                            "id": 2,
+                            "steps": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "map": "Mirage",
+            "tactics": [
+                {
+                    "name": "Default",
+                    "description": "",
+                    "phases": [
+                        {
+                            "description": "One in palace, one watches ramp, one in middle and one in apps. Last one can support where it is most likely needed / where is going to be aggressive peek.",
+                            "id": 1,
+                            "steps": [
+                                {
+                                    "url": "",
+                                    "name": ""
+                                }
+                            ]
+                        },
+                        {
+                            "description": "Alternative: mid take. Smoke on catwalk and window. Molotov connector and try to take picks from short and connector. Goal is to get guys to ladder and coonector so that splits towards both A and B stay open.",
+                            "id": 1,
+                            "steps": [
+                                {
+                                    "url": "",
+                                    "name": ""
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "A execute",
+                    "description": "",
+                    "phases": [
+                        {
+                            "description": "Smoke CT, stairs and jungle. Molotov dark / terrace. Throw flashes from palace and ramp.",
+                            "id": 1,
+                            "steps": [
+                                {
+                                    "url": "",
+                                    "name": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "map": "Overpass",
+            "tactics": [
+                {
+                    "name": "Default",
+                    "description": "",
+                    "phases": [
+                        {
+                            "description": "One watches long push from playground / fountain, one takes balloons or mid, one to connector and one holds monster. Last guy doubles where is likely going to be aggressive pushes.",
+                            "id": 1,
+                            "steps": [
+                                {
+                                    "url": "",
+                                    "name": ""
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "A execute",
+                    "description": "",
+                    "phases": [
+                        {
+                            "description": "Smoke dumpster and bank. Optionally molly truck",
+                            "id": 1,
+                            "steps": [
+                                {
+                                    "url": "https://sothatwemaybefree.com/map/de_overpass/Smoke/176/bank-from-short",
+                                    "name": "Bank smoke"
+                                },
+                                {
+                                    "url": "https://sothatwemaybefree.com/map/de_overpass/Smoke/175/back-a-from-short",
+                                    "name": "Dumpster smoke"
+                                },
+                                {
+                                    "url": "https://sothatwemaybefree.com/map/de_overpass/Molotov/165/truck-from-cafe",
+                                    "name": "Truck molly"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "B execute",
+                    "description": "",
+                    "phases": [
+                        {
+                            "description": "Smoke heaven and bridge",
+                            "id": 1,
+                            "steps": [
+                                {
+                                    "url": "https://sothatwemaybefree.com/map/de_overpass/Smoke/180/heaven-from-squeaky",
+                                    "name": "Heaven smoke"
+                                },
+                                {
+                                    "url": "https://sothatwemaybefree.com/map/de_overpass/Smoke/183/bridge-from-alley",
+                                    "name": "Bridge smoke"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
