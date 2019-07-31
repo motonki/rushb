@@ -106,12 +106,16 @@
                             ]
                         },
                         {
-                            "description": "Alternative: mid take. Smoke on catwalk and window. Molotov connector and try to take picks from short and connector. Goal is to get guys to ladder and coonector so that splits towards both A and B stay open.",
+                            "description": "Alternative: mid take. Smoke on catwalk and window. Molotov connector and try to take picks from short and connector. Goal is to get guys to ladder and connector so that splits towards both A and B stay open.",
                             "id": 1,
                             "steps": [
                                 {
-                                    "url": "",
-                                    "name": ""
+                                    "url": "https://sothatwemaybefree.com/map/de_mirage/Smoke/37/window-from-t-spawn",
+                                    "name": "Window smoke"
+                                },
+                                {
+                                    "url": "https://sothatwemaybefree.com/map/de_mirage/Smoke/254/catwalk-from-t-spawn",
+                                    "name": "Catwalk smoke"
                                 }
                             ]
                         }
@@ -126,8 +130,16 @@
                             "id": 1,
                             "steps": [
                                 {
-                                    "url": "",
-                                    "name": ""
+                                    "url": "https://sothatwemaybefree.com/map/de_mirage/Smoke/53/connector-and-jungle-from-t-roof",
+                                    "name": "Jungle smoke"
+                                },
+                                {
+                                    "url": "https://sothatwemaybefree.com/map/de_mirage/Smoke/52/stairs-from-t-roof",
+                                    "name": "Smoke to stairs"
+                                },
+                                {
+                                    "url": "https://sothatwemaybefree.com/map/de_mirage/Smoke/249/ct-ramp-from-t-spawn",
+                                    "name": "CT smoke"
                                 }
                             ]
                         }

@@ -8,10 +8,10 @@ can help in this mess of code.
 */
 
 function Step(props) {
-    return(
+    return (
         <>
-        
-        <a class="text-primary step" href={props.value.url} target="_blank" rel="noopener noreferrer">>{props.value.name}</a>
+
+            <a class="text-primary step" href={props.value.url} target="_blank" rel="noopener noreferrer">>{props.value.name}</a>
         </>
     )
 }
@@ -19,7 +19,7 @@ function Step(props) {
 function Steps(props) {
     const steps = props.steps.map((step) =>
         <Step key={step.name} value={step} />);
-    return(
+    return (
         <div>
             {steps}
         </div>
@@ -27,7 +27,7 @@ function Steps(props) {
 }
 
 function Phase(props) {
-    return(
+    return (
         <div>
             {props.value.description}
             <Steps steps={props.value.steps} />
@@ -38,7 +38,7 @@ function Phase(props) {
 function Phases(props) {
     const phases = props.phases.map((phase) =>
         <Phase key={phase.id} value={phase} />);
-    return(
+    return (
         <div>
             {phases}
         </div>
@@ -47,10 +47,10 @@ function Phases(props) {
 
 function Tactic(props) {
     return (
-            <div class="tactic border rounded-sm">
+        <div class="tactic border rounded-sm">
             {props.value.name}
             <p>{props.value.description}</p>
-            <Phases phases={props.value.phases}/>
+            <Phases phases={props.value.phases} />
         </div>
     );
 }
@@ -58,7 +58,7 @@ function Tactic(props) {
 function Tactics(props) {
     const rawTactics = props.tactics;
     const tactics = rawTactics.map((tactic) =>
-        <Tactic key={tactic.name} value={tactic}/>);
+        <Tactic key={tactic.name} value={tactic} />);
     return (
         <div>
             {tactics}
@@ -76,17 +76,19 @@ some kind of API.
 class MapTactics extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {tactics: []};
+        this.state = { tactics: [] };
         var mapname = this.props.name;
         var data = alltactics.filter(function (map) {
             return map.map == mapname;
         });
-        this.state={tactics: data[0].tactics};
+        this.state = { tactics: data[0].tactics };
+        this.state = { name: data[0].map };
     }
     render() {
         return (
             <div>
                 <button onClick={this.props.onClick} class="btn btn-primary">Back to map list</button>
+                <h1>{this.state.name}</h1>
                 <Tactics tactics={this.state.tactics} />
             </div>
         );
