@@ -88,7 +88,7 @@ class MapTactics extends React.Component {
         return (
             <div>
                 <button onClick={this.props.onClick} class="btn btn-primary">Back to map list</button>
-                <h1>Insert map name!</h1>
+                <h1>{this.props.name}</h1>
                 <Tactics tactics={this.state.tactics} />
             </div>
         );
