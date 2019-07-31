@@ -85,6 +85,27 @@
                             "steps": []
                         }
                     ]
+                },
+                {
+                    "name": "Rush B",
+                    "description": "",
+                    "phases": [
+                        {
+                            "description": "First flashes over car and second HEs default awping spot.",
+                            "id": 1,
+                            "steps": []
+                        },
+                        {
+                            "description": "If you didn't die to awp and nades check car, default, sandbox and close wall.",
+                            "id": 2,
+                            "steps": []
+                        },
+                        {
+                            "description": "Smoke CT from the run and hope that awp is not holding from. Then rush site and check all angles",
+                            "id": 3,
+                            "steps": []
+                        }
+                    ]
                 }
             ]
         },
@@ -142,6 +163,22 @@
                                     "name": "CT smoke"
                                 }
                             ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Rush B",
+                    "description": "",
+                    "phases": [
+                        {
+                            "description": "All rush from apps. MLG level variation is to throw two flashes over apps when first guy reaches window. Also pros carry one smoke to put out the molotov.",
+                            "id": 1,
+                            "steps": []
+                        },
+                        {
+                            "description": "Check car, bench and short. Also check the  rest of the site. If close short is clear, plant close, otherways default after smoking market window.",
+                            "id": 2,
+                            "steps": []
                         }
                     ]
                 }
@@ -207,6 +244,22 @@
                                     "name": "Bridge smoke"
                                 }
                             ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Rush B",
+                    "description": "",
+                    "phases": [
+                        {
+                            "description": "Four rush monster. Lat stays back and throws flashes over monsters. Then he rotates to short to avoid flank from connector / flank to site.",
+                            "id": 1,
+                            "steps": []
+                        },
+                        {
+                            "description": "Clear barrels and bridge angle without exposing to heaven. Then double or triple peek heaven and.",
+                            "id": 2,
+                            "steps": []
                         }
                     ]
                 }
