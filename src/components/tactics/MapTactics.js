@@ -82,13 +82,13 @@ class MapTactics extends React.Component {
             return map.map == mapname;
         });
         this.state = { tactics: data[0].tactics };
-        this.state = { name: data[0].map };
+        //this.state = { name: data[0].map };
     }
     render() {
         return (
             <div>
                 <button onClick={this.props.onClick} class="btn btn-primary">Back to map list</button>
-                <h1>{this.state.name}</h1>
+                <h1>Insert map name!</h1>
                 <Tactics tactics={this.state.tactics} />
             </div>
         );
