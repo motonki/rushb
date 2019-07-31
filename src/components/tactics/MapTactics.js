@@ -102,7 +102,6 @@ class MapTactics extends React.Component {
             <div>
                 <button onClick={this.props.onClick} class="btn btn-primary">Back to map list</button>
                 <h1>{this.props.name}</h1>
-                <FeaturedTactic tactics={this.state.tactics} />
                 <Tactics tactics={this.state.tactics} />
             </div>
         );
