@@ -1,4 +1,17 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+RushB
+-----
+
+RushB is a hobby project which I started to teach myself React.js. The project idea was to support my gaming group during the Assembly Summer 2019. The idea was to design a web application that could communicate in the most compact yet explicit way what to do during in next round / match.
+
+The app is currently deployed to [Heroku](https://rushb1.herokuapp.com/.)
+
+Currently the project consists only of a React.js front end and data is served from `tactics.json` file. The design is tried to make so that project could later be extended with a back end that could serve the data over a API.
+
+List of things I am interested in doing if I were to continue with this project:
+* Back end to store data in a persistent storage and to serve data over API
+* Functionality to add and edit tactics from the UI
+* User profile to store personal favourite tactics
+* Team page to show each team their own tactics
 
 ## Available Scripts
 

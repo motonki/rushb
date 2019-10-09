@@ -1,6 +1,10 @@
 import React from 'react';
 import MapImage from './MapImage';
 
+/*
+This is the main component of the app.
+ */
+
 class MagGrid extends React.Component {
     render() {
         return (
